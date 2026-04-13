@@ -11,7 +11,7 @@ namespace cybersecurity_awareness_chatbot
         ArrayList keywords = new ArrayList();
         //arraylist for answers
         ArrayList answers = new ArrayList();
-        //for Random Responses
+        //for random responses
         ArrayList phishing_tips = new ArrayList();
         Random random_answer = new Random();
 

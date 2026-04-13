@@ -7,9 +7,11 @@ namespace cybersecurity_awareness_chatbot
     public class prompt_and_search
     {//start of class
 
+        //arraylist that will hold keywords
         ArrayList keywords = new ArrayList();
+        //arraylist for answers
         ArrayList answers = new ArrayList();
-        // For Random Responses
+        //for Random Responses
         ArrayList phishing_tips = new ArrayList();
         Random random_answer = new Random();
 
@@ -43,7 +45,7 @@ namespace cybersecurity_awareness_chatbot
         {
             bool found = false;
 
-            // Handle Random Responses for Phishing specifically
+            //handling Random Responses for Phishing specifically
             if (input.Contains("phishing"))
             {
                 int r = random_answer.Next(phishing_tips.Count);
@@ -55,7 +57,7 @@ namespace cybersecurity_awareness_chatbot
             }
             else
             {
-                // Standard Keyword Search
+                //for loop for standard keyword searching
                 for (int i = 0; i < keywords.Count; i++)
                 {
                     if (input.Contains(keywords[i].ToString()))

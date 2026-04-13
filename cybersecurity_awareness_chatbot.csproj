@@ -57,6 +57,7 @@
   <ItemGroup>
     <Content Include="greet.wav" />
     <Content Include="logo.png" />
+    <Content Include="Presentetion video.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

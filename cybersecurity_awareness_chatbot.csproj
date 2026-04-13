@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="ascii_logo.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="prompt_and_search.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="voice_greeting.cs" />
     <Compile Include="welcome_and_username.cs" />

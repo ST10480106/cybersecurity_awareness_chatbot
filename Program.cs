@@ -30,6 +30,10 @@ namespace cybersecurity_awareness_chatbot
             //calling the method ask_user to ask the user for name
             string name = welcome_and_collect.ask_user();
 
+            //instance for starting the questions chat start chat
+            prompt_and_search start_chat = new prompt_and_search();
+            start_chat.aibot(name);
+
         }//end of main method
 
     }//end of program class
